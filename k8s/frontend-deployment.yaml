@@ -23,6 +23,11 @@ spec:
         ports:
         - containerPort: 80
           name: http
+        env:
+        - name: REACT_APP_AUTH_SERVICE_URL
+          value: "http://192.168.49.2:30001"
+        - name: REACT_APP_BACKEND_SERVICE_URL
+          value: "http://192.168.49.2:30002"
         resources:
           requests:
             memory: "128Mi"
