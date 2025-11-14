@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DRM Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Airflow
+logs/
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+standalone_admin_password.txt
+webserver_config.py
+*.log
+
+# DVC
+/dvc-remote/
+
+# Data files tracked by DVC
+/data/*.csv
+/data/*.json
+/data/*.parquet
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+
+# Postgres
+*.sql~
+
+# Temporary files
+*.tmp
+*.bak
+*.backup

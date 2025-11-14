@@ -1,0 +1,14 @@
+# DVC ignore patterns
+# Add patterns of files/directories that DVC should ignore
+
+# DVC remote storage directory
+/dvc-remote
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
